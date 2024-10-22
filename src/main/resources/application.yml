@@ -1,0 +1,33 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8282
+  endpoints:
+    web:
+      base-path: /mng
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    root: INFO
+
+redis:
+  keys:
+    cardInfo:
+      timeToLive: PT5M
+
+aspect:
+  cardRemove:
+    enabled: true

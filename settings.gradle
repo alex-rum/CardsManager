@@ -1,1 +1,6 @@
-rootProject.name = 'PaymentsManager'
+pluginManagement {
+    plugins {
+        id 'org.jetbrains.kotlin.jvm' version '2.0.10'
+    }
+}
+rootProject.name = 'CardsManager'

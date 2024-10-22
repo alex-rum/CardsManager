@@ -1,13 +1,13 @@
-package com.paymentsmanager;
+package com.cards.manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PaymentsManagerApplication {
+public class CardsManagerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentsManagerApplication.class, args);
+        SpringApplication.run(CardsManagerApplication.class, args);
     }
 
 }
